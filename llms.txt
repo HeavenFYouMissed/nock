@@ -1,0 +1,26 @@
+# Nock
+
+> Nock is the voice and overlay agent for Mac and Windows: dictate into apps, get help where you work, and bring your coding agents and teammates together.
+
+Official website: https://heynock.com/
+Product facts updated: 2026-10-20
+
+Nock is the desktop product at heynock.com, made by the Nock team and built on V3Code. It is separate from similarly named services.
+
+## Product and setup
+- [Features](https://heynock.com/features/): voice, coding agents, Canvas and widgets
+- [Download](https://heynock.com/download/): Mac and Windows
+- [Official Nock docs](https://docs.v3code.dev/nock/overview): setup and detailed product guides
+- [Team](https://heynock.com/features/team/): handoffs between teammates and agents
+- [Connections](https://heynock.com/app-store/): connected apps, account sign-in, API keys and Ollama
+- [Privacy](https://heynock.com/privacy/): local and cloud data paths
+
+## Plans
+- [Pricing](https://heynock.com/pricing/): current plan features, monthly/yearly prices and lifetime terms
+- [Machine-readable product facts](https://heynock.com/product.json): USD prices, eligible account options and Own exclusions
+
+Only Nock has a 7-day card-required trial. Other plans, including Own, start paid. Free remains free. Provider account eligibility and limits still apply. Lifetime allocations are not remaining stock; use the live inventory endpoint for a confirmed remaining count.
+
+## Public project
+- [Nock on GitHub](https://github.com/HeavenFYouMissed/nock): public product overview, facts and links
+- [Nock Social](https://social.heynock.com/): the separate community, with its own login

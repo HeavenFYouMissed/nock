@@ -1,0 +1,176 @@
+{
+  "name": "Nock",
+  "core": "Nock, the voice and overlay agent.",
+  "description": "Nock is the voice and overlay agent for Mac and Windows: dictate into apps, get help where you work, and bring your coding agents and teammates together.",
+  "url": "https://heynock.com/",
+  "repository": "https://github.com/HeavenFYouMissed/nock",
+  "docs": "https://docs.v3code.dev/nock/overview",
+  "download": "https://update.v3code.dev/nock/download",
+  "updated": "2026-10-20",
+  "operatingSystems": [
+    "macOS",
+    "Windows"
+  ],
+  "category": "Voice and overlay agent",
+  "features": [
+    "Local dictation and Light clean-up",
+    "Voice agent over your work",
+    "Connected apps on paid plans",
+    "Chat Manager for coding agents",
+    "Team handoffs on every plan",
+    "Canvas diagrams and HTML export",
+    "Custom apps and widgets"
+  ],
+  "aiOptions": {
+    "accounts": [
+      {
+        "id": "anthropic",
+        "name": "Anthropic",
+        "methods": [
+          "Claude Pro/Max"
+        ]
+      },
+      {
+        "id": "digitalocean",
+        "name": "DigitalOcean",
+        "methods": [
+          "Login with DigitalOcean"
+        ]
+      },
+      {
+        "id": "github-copilot",
+        "name": "GitHub Copilot",
+        "methods": [
+          "Login with GitHub Copilot"
+        ]
+      },
+      {
+        "id": "gitlab",
+        "name": "GitLab Duo",
+        "methods": [
+          "GitLab OAuth"
+        ]
+      },
+      {
+        "id": "openai",
+        "name": "OpenAI",
+        "methods": [
+          "ChatGPT Pro/Plus (browser)"
+        ]
+      },
+      {
+        "id": "poe",
+        "name": "Poe",
+        "methods": [
+          "Login with Poe (browser)"
+        ]
+      },
+      {
+        "id": "snowflake-cortex",
+        "name": "Snowflake Cortex",
+        "methods": [
+          "Login with Snowflake (External Browser)"
+        ]
+      },
+      {
+        "id": "xai",
+        "name": "xAI",
+        "methods": [
+          "SuperGrok Subscription"
+        ]
+      }
+    ],
+    "keys": "Bring your own API keys",
+    "local": "Ollama",
+    "terms": "Account eligibility, model availability and usage limits follow the provider\u2019s plan. A catalog listing is not a certification of every account."
+  },
+  "currency": "USD",
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "monthly": "0",
+      "trialDays": 0
+    },
+    {
+      "id": "nock",
+      "name": "Nock",
+      "monthly": "14.99",
+      "yearly": "129.99",
+      "trialDays": 7
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "monthly": "29.99",
+      "yearly": "299.99",
+      "trialDays": 0
+    },
+    {
+      "id": "plus",
+      "name": "Plus",
+      "monthly": "49.99",
+      "yearly": "499.99",
+      "trialDays": 0
+    },
+    {
+      "id": "team",
+      "name": "Team",
+      "monthly": "19.99",
+      "yearly": "159.99",
+      "perPerson": true,
+      "minimumSeats": 2,
+      "trialDays": 0
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "monthly": "100",
+      "trialDays": 0
+    },
+    {
+      "id": "ultra",
+      "name": "Ultra",
+      "monthly": "200",
+      "trialDays": 0
+    },
+    {
+      "id": "own",
+      "name": "Nock Own",
+      "monthly": "7.99",
+      "yearly": "59.99",
+      "lifetime": {
+        "earlyPrice": 99,
+        "earlyAllocation": 200,
+        "laterPrice": 149,
+        "publicAllocation": 850,
+        "totalAllocation": 1000
+      },
+      "trialDays": 0
+    }
+  ],
+  "ownIncludes": [
+    "Full agent on eligible account, keys or local Ollama",
+    "Connected apps: 500 actions a day",
+    "One background worker",
+    "Team",
+    "Building with own Claude Code or Codex",
+    "Local dictation, Light clean-up and voice"
+  ],
+  "ownExcludes": [
+    "Nock\u2019s included AI",
+    "Polished clean-up",
+    "Cloud voice",
+    "Cloud dictation",
+    "Cloud bots",
+    "Posting to X"
+  ],
+  "signup": "https://app.v3code.dev/login",
+  "pricing": "https://heynock.com/pricing/",
+  "connections": "https://heynock.com/app-store/",
+  "lifetimeInventory": {
+    "url": "https://backend-production-fc598.up.railway.app/api/nock/own/spots",
+    "refreshSeconds": 30,
+    "note": "Allocations are fixed, remaining inventory is live only. If unavailable, no remaining count is asserted."
+  }
+}
